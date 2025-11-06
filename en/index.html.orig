@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Hypatia Academy</title>
+</head>
+
+<body>
+    <header class="bg-tan">
+        <nav class="navbar navbar-light navbar-hypatia navbar-expand-md container">
+            <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="Hypatia Academy" class="img-fluid d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><svg viewBox="0 0 100 80" width="40" height="40" fill="#3d5a62">
+                        <rect width="100" height="10"></rect>
+                        <rect y="30" width="100" height="10"></rect>
+                        <rect y="60" width="100" height="10"></rect>
+                    </svg></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown mb-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ελληνικά
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../index.html">Ελληνικά</a>
+                            <a class="dropdown-item active" href="index.html">English</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-tan" id="hero">
+            <div class="container">
+                <div class="row">
+                    <img src="../img/hypatia.png" alt="hypatia" class="img-hypatia">
+                    <div class="col-12 col-lg-6 my-auto">
+                        <h1>We Teach Children to Program Computers</h1>
+                        <p class="pt-3 pb-4 lead">We teach gymnasium and lyceum students (ages 13-18) in Cyprus basic computer programming over the internet. We teach the Python programming language as it's the easiest to learn yet is widely used in business.</p>
+<p class="cta">Course material is <a href="https://github.com/werowe/HypatiaAcademy">here</a>.</p>
+                        <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-lg-5 m-auto"><img src="../img/walker.png" class="img-fluid" alt="Walker Rowe"></div>
+                    <div class="col-12 col-lg-5 offset-lg-1 d-flex mt-4">
+                        <div class="my-auto">
+                            <h3>Hi, I'm Walker Rowe.</h3>
+                            <p>Our school is founded by Walker Rowe, an American computer programmer and tech writer living in Cyprus. Walker is the main instructor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="python">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="pt-3 pb-5">
+                            <h3>2 year program.<br>
+                                Get certified in Python.</h3>
+                            <p>We start with the simplest concepts and over a period of two years build knowledge so that students can get certification in the Python programming language. Students can use that to help them get into a university or find work.</p>
+                            <h3 class="mt-5">Python is one of the easiest programming languages to understand.</h3>
+                            <p>Python is one of the languages most widely used by business. What do business, universities, and government use it for?</p>
+                            <ul class="mb-5">
+                                <li>Machine learning/artificial intelligence</li>
+                                <li>Self-driving cars</li>
+                                <li>Diagnosing cancer and other diseases</li>
+                                <li>Accounting, sales, inventory, and other systems</li>
+                            </ul>
+                            <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="../img/laptop.png" alt="" class="img-right">
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 text-center mx-auto">
+                        <h3>How does it work?</h3>
+                        <p>We teach our classes in English, because computer languages are written in English. And most programmers in business are required to know English. Don’t worry if your English is limited. As long as you can read basic English you will be OK. The audio will have simultaneous closed captioning in English to make the English easier to understand.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="wanted" class="bg-tan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-7 text-center mx-auto">
+                        <h2>Girls wanted!</h2>
+                        <p>Our school is named for Hypatia, because we believe more women need to work as computer programmers. Computer programming is something you can do over the internet. So you can work for companies in other European nations from right here in Cyprus. Women are in strong demand in IT, because there are so few of them. So it is easy for them to find jobs. We want to encourage girls to look beyond traditional areas where they might work and join with their male counterparts to work as engineers. Hypatia did that with mathematics. You can do that too.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <img src="../img/girlcomputer.png" class="img-fluid mb-5" alt="">
+                        <img src="../img/girlcoder.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-1 pt-5">
+                        <h3>Women can program computers too.</h3>
+                        <p>Something like 90% to 100% of computer programmers are male. That is just wrong. Women can do programming. In the United States some women work as engineers, but they are mainly immigrants from India.</p>
+                        <p>Why do girls avoid working with computers? I don’t know. Maybe they think they are complicated? Nonsense. Computers are so easy even stupid boys can do it.</p>
+                        <p>Maybe they think math is too hard? Wrong. Yes, you have to understand a little math to understand computers. For example, if you want to tell the computer to do something 10 times you have to be able to count to 10.</p>
+                        <p class="mb-5">I was the worst math student when I was in secondary school. But I studied and earned a university degree in math. If someone as dumb as me can learn math then you can too.</p>
+                        <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="pt-4 pb-5">
+                            <h3>The benefits of afterschool education.</h3>
+                            <p>We are not a school. Instead we offer afterschool education and classes during the summer.</p>
+                            <p>In America, Korea, China, and other countries many children do this. My children went to school during the day and then went in the afternoons too for additional study. 100% of Chinese students in the USA do this too.</p>
+                            <p>Cyprus public schools rank near the bottom in Europe when you look at the results of the PISA exam. And most schools here don’t teach computer programming. Do you want to learn something useful? Then learning computer programming with us.</p>
+                            <p>Why is Google and Facebook in America and not Cyprus? That’s the wrong question. The correct question is, “When will a business like Google or Cyprus open in Cyprus?” Learn programming and help with that.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="../img/code.png" alt="" class="img-right">
+        </section>
+        <section id="future">
+            <img src="../img/teenager.png" alt="" class="img-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 ml-auto">
+                        <div class="pt-4">
+                            <h3>Think about your future.</h3>
+                            <p>Cyprus has an economy based on tourism, real estate, shipping, and forex. There are no more jobs in tourism and real estate and will not be for several years. Cyprus does not need anymore yoga instructors, life coaches, real estate agents, travel agents, or people selling items on Amazon.</p>
+                            <p>What Cyprus needs are computer programmers. European and American companies especially are looking for female computer programmers. If you want to work for Amazon or Google they will hire you straight away just because you are a woman. This is because America believes there should be no discrimination. So they have to have women on staff.</p>
+                            <h3 class="mt-5">Who Needs an Office? Computers and Remote Work are the Future</h3>
+                            <p>Because of the coronavirus, the people who still have jobs today in Cyprus are people who can work from home. Everyone else has lost their job.</p>
+                            <p>Computer programmers can work from anywhere, from the top of a tree to a deserted island. Cyprus is not a deserted island, but it’s an island. You can live in Cyprus and work for clients in the USA, Europe, Asia, and of course Cyprus.</p>
+                            <p>It’s not just the coronavirus that has changed the world forever. Computers and especially computer machine learning have changed everything. Half of the professions that exist today will be gone in 10 years.</p>
+                            <p>In my home country, the USA, we already have self driving cars and trucks. Computers are replacing doctors too, especially radiologists, as they are better at diagnosing disease than humans. Computers are replacing lawyers in America. All of this change will come to Cyprus</p>
+                            <p class="mb-5">So if you want a future then you need to learn computer programming.</p>
+                            <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="start" class="bg-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5 text-center mx-auto mb-4">
+                        <h2>It's simple to get started.</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="pt-4 pb-4">
+                            <h3>We help you prepare for certification exams.</h3>
+                            <p>There are various international organizations that offer these tests. With a certificate you can find a job after graduating from secondary school. Or you can use the certificate to help you get into a university.</p>
+                        </div>
+                        <div class="pt-3 pb-4">
+                            <h3>All you need is a computer and internet connection.</h3>
+                            <p>Any kind of computer will work. In the future we hope to give students computers for free. But in the meantime you can buy a used desktop computer from sellers on the internet for around 100 euros. If you cannot afford a computer then buy an external keyboard for your phone or tablet. Logitech has those.</p>
+                        </div>
+                        <div class="pt-3 pb-5">
+                            <h3>Simple €5 fee/class. 2 classes/week.</h3>
+                            <p>Our Fee is only 5 euros because we want to help public school students. Education should not only be for the rich.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                    </div>
+                </div>
+            </div>
+            <img src="../img/student3.png" alt="" class="img-right rectangle">
+        </section>
+        <section id="learn">
+            <img src="../img/laptop2.png" alt="" class="img-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 ml-auto">
+                        <div class="py-3">
+                            <h3>This is what you'll learn.</h3>
+                            <p>We will divide our class into a series of three month sessions. You can take the one class and quit. Or you can continue and finish the entire two year program. We will probably divide the class into two classes after some time. This will allow faster students to explore more advanced topics sooner.</p>
+                            <p>We will write a detailed curriculum as we go. This is because we need to adjust the curriculum over time because we don’t yet know how much knowledge students already have. But basically we will start with these topics:</p>
+                            <ul class="mb-5">
+                                <li>Data types</li>
+                                <li>Data structures</li>
+                                <li>Arithmetic operators</li>
+                                <li>Logical operators</li>
+                                <li>Control flow logic</li>
+                                <li>Functions</li>
+                                <li>Classes (Objects)</li>
+                                <li>Reading and writing files</li>
+                                <li>JSON</li>
+                                <li>Working with dates and time</li>
+                                <li>Using Jupyter Notebooks</li>
+                            </ul>
+                            <p>Some fun topics and more topics in later sessions:</p>
+                            <ul class="mb-5">
+                                <li>Working with Facebook and Twitter</li>
+                                <li>Drawing graphs and charts</li>
+                                <li>Machine learning</li>
+                            </ul>
+                            <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-tan">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-4">
+                    <h2>Let's get in touch.</h2>
+                    <p class="py-3">We will start classes in June.</p>
+                    <a class="signup" href="https://docs.google.com/forms/d/e/1FAIpQLSdunF0S2aaWxjip0yh989nvvklVRr_bDWnC74IjUHUV6cPUnQ/viewform" target="_blank">Hypatia Academy Student Interview Request Form</a>
+                </div>
+                <div class="col-12 py-3">
+                    <p>Walker Rowe<br>
+                        <a href="mailto:werowe@walkerrowe.com">werowe@walkerrowe.com</a><br>
+                        Paphos, Cyprus</p>
+                    <div class="pt-3"><a href="http://walkercodetutorials.com/" class="d-block" target="_blank">walkercodetutorials.com</a>
+                        <a href="http://hypatiaacademy.io/" class="d-block" target="_blank">hypatiaacademy.io</a></div>
+                </div>
+                <div id="social" class="d-flex justify-content-between col-12 col-md-5 mx-auto mt-4">
+                    <a href="https://wa.me/35797629604" target="_blank"><img src="../img/whatsapp.svg" alt="Whatsapp"></a>
+                    <a href="https://www.linkedin.com/in/walkerrowe/" target="_blank"><img src="../img/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="https://www.facebook.com/hypatiaacademycyprus" target="_blank"><img src="../img/facebook.svg" alt="Facebook"></a>
+                    <a href="https://hypatiaacademycyprus.slack.com/" target="_blank"><img src="../img/slack.svg" alt="Slack"></a>
+                </div>
+                <div class="col-12 mt-4">
+                    <a href="./privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
