@@ -1,45 +1,30 @@
-<style>
- 
-
 /* Logo */
-.navbar-brand img {
-  height: 60px;
-  width: auto;
-  max-width: none;
-}
+.navbar-brand img { height: 60px; width: auto; max-width: none; }
 
-  /* Section background colors used in the markup */
-  .bg-tan  { background-color: #f5efe6; }
-  .bg-blue { background-color: #e8f1f5; }
+/* Section background colors */
+.bg-tan  { background-color: #f5efe6; }
+.bg-blue { background-color: #e8f1f5; }
 
-  /* Hero portrait of Hypatia */
+/* All content images: never exceed their container, keep aspect ratio */
+main img { max-width: 100%; height: auto; }
+
+/* Hero portrait — don't let flex shrink it */
 .img-hypatia {
-  width: 280px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   flex-shrink: 0;
   display: block;
   margin: 0 auto 1.5rem;
 }
 
-  /* The recurring "girl / coder" feature images */
-  .img-girl {
-    max-width: none;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5rem auto;
-  }
-
-  /* Images that hang to the left or right of a section */
-  .img-left, .img-right {
-   max-width: none;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5rem auto;
-  }
-
-  /* General safety net: nothing renders larger than its column */
-  main img { max-width: 100%; height: auto; }
-</style>
+/* Feature images (cartoon people) — cap their size, center them */
+.img-girl,
+.img-left,
+.img-right {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
