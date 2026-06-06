@@ -1,0 +1,38 @@
+<style>
+  /* Logo */
+  .navbar-brand img { max-height: 60px; width: auto; }
+
+  /* Section background colors used in the markup */
+  .bg-tan  { background-color: #f5efe6; }
+  .bg-blue { background-color: #e8f1f5; }
+
+  /* Hero portrait of Hypatia */
+  .img-hypatia {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1.5rem;
+  }
+
+  /* The recurring "girl / coder" feature images */
+  .img-girl {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+  }
+
+  /* Images that hang to the left or right of a section */
+  .img-left, .img-right {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+  }
+
+  /* General safety net: nothing renders larger than its column */
+  main img { max-width: 100%; height: auto; }
+</style>
