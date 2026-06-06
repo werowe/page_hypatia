@@ -7,7 +7,7 @@ main img {
 /* Hero Hypatia portrait */
 .img-hypatia {
   width: 100%;
-  max-width: 380px;
+  max-width: 450px;
   height: auto;
   flex-shrink: 0;
   display: block;
