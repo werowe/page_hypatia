@@ -13,13 +13,14 @@
   .bg-blue { background-color: #e8f1f5; }
 
   /* Hero portrait of Hypatia */
-  .img-hypatia {
-    max-width: none;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 1.5rem;
-  }
+.img-hypatia {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
 
   /* The recurring "girl / coder" feature images */
   .img-girl {
