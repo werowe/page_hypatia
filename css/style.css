@@ -1,30 +1,49 @@
-/* Logo */
-.navbar-brand img { height: 60px; width: auto; max-width: none; }
+/* All content images: never exceed their container */
+main img {
+  max-width: 100%;
+  height: auto;
+}
 
-/* Section background colors */
-.bg-tan  { background-color: #f5efe6; }
-.bg-blue { background-color: #e8f1f5; }
-
-/* All content images: never exceed their container, keep aspect ratio */
-main img { max-width: 100%; height: auto; }
-
-/* Hero portrait — don't let flex shrink it */
+/* Hero Hypatia portrait */
 .img-hypatia {
   width: 100%;
-  max-width: 300px;
+  max-width: 240px;
   height: auto;
   flex-shrink: 0;
   display: block;
   margin: 0 auto 1.5rem;
 }
 
-/* Feature images (cartoon people) — cap their size, center them */
+/* Cartoon / feature images */
 .img-girl,
 .img-left,
 .img-right {
   width: 100%;
-  max-width: 380px;
+  max-width: 250px;
   height: auto;
   display: block;
   margin: 1.5rem auto;
+}
+
+/* Walker photo */
+.img-walker {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Slightly smaller on phones */
+@media (max-width: 576px) {
+  .img-hypatia {
+    max-width: 200px;
+  }
+
+  .img-girl,
+  .img-left,
+  .img-right,
+  .img-walker {
+    max-width: 220px;
+  }
 }
