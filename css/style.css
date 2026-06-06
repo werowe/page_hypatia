@@ -14,7 +14,7 @@
 
   /* Hero portrait of Hypatia */
   .img-hypatia {
-    max-width: 280px;
+    max-width: none;
     width: 100%;
     height: auto;
     display: block;
@@ -23,7 +23,7 @@
 
   /* The recurring "girl / coder" feature images */
   .img-girl {
-    max-width: 320px;
+    max-width: none;
     width: 100%;
     height: auto;
     display: block;
@@ -32,7 +32,7 @@
 
   /* Images that hang to the left or right of a section */
   .img-left, .img-right {
-    max-width: 300px;
+   max-width: none;
     width: 100%;
     height: auto;
     display: block;
